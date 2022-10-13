@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types';
-// import css from '..';
 import css from './Contacts.module.css'
 
 

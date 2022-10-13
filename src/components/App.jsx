@@ -54,9 +54,9 @@ export class App extends Component {
     return (
       <>
         <div className="container">
-          <h1 className="mainText">Phonebook</h1>
+          <h1>Phonebook</h1>
           <Form addUserData={this.addUserData} />
-          <h2 className="mainText">Contacts</h2>
+          <h2>Contacts</h2>
           <Filter handlerFilter={this.handlerFilter} />
           <ContactList
             contactList={this.getContactList()}

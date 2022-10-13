@@ -8,6 +8,7 @@
 .contacts__item {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
 }
 
 .contacts__item:not(:last-child) {
