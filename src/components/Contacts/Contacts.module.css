@@ -5,6 +5,11 @@
     padding-left: 10px;
 }
 
+.contacts__item {
+    display: flex;
+    justify-content: space-between;
+}
+
 .contacts__item:not(:last-child) {
     margin-bottom: 10px;
 }
@@ -15,7 +20,7 @@
     background-color: rgba(81, 41, 200, 0.212);
     line-height: 1.62;
     border: transparent;
-    margin-top: 10px;
+    margin-left: 20px;
     padding: 6px 22px;
     width: 80px;
     border-radius: 5px;
