@@ -1,7 +1,7 @@
 import { Component } from 'react';
 import { ContactList } from './Contacts/ContactsList';
 import { Filter } from './Filter';
-import { Form } from './Form/Form';
+import { FormContacts } from './Form/Form';
 
 export class App extends Component {
   state = {
@@ -54,9 +54,9 @@ export class App extends Component {
     return (
       <>
         <div className="container">
-          <h1>Phonebook</h1>
-          <Form addUserData={this.addUserData} />
-          <h2>Contacts</h2>
+          <h1 className="mainText">Phonebook</h1>
+          <FormContacts addUserData={this.addUserData} />
+          <h2 className="mainText">Contacts</h2>
           <Filter handlerFilter={this.handlerFilter} />
           <ContactList
             contactList={this.getContactList()}
